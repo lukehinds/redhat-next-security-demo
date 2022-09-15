@@ -1,1 +1,1 @@
-# cosign github action example
+# redhat-next-security-demo
