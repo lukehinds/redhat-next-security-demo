@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-    // http function
+    // http world
     http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
         fmt.Fprintf(w, "Hello, %q", html.EscapeString(r.URL.Path))
     })
